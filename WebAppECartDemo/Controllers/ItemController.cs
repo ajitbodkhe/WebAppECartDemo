@@ -45,6 +45,7 @@ namespace WebAppECartDemo.Controllers
             objItem.Description = itemViewModel.Description;
             objItem.ItemCode = itemViewModel.ItemCode;
             objItem.ItemId = Guid.NewGuid();
+            //This is test.
             objItem.ItemName = itemViewModel.ItemName;
             objItem.ItemPrice = itemViewModel.ItemPrice;
             eCartDBEntities.Items.Add(objItem);
